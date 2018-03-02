@@ -116,6 +116,7 @@
     <string name="filedetails_select_file">Pulsa un archivo para mostrar información adicional.</string>
     <string name="filedetails_download">Descargar</string>
     <string name="filedetails_sync_file">Syncronizar</string>
+    <string name="filedetails_renamed_in_upload_msg">El archivo se renombró com %1$s durante la carga</string>
     <string name="list_layout">Vista de lista</string>
     <string name="action_send_share">Enviar/Compartir</string>
     <string name="common_yes">Sí</string>
@@ -277,6 +278,7 @@
     <string name="remove_success_msg">Eliminado</string>
     <string name="remove_fail_msg">Falla al eliminar</string>
     <string name="rename_dialog_title">Ingresa un nombre nuevo</string>
+    <string name="rename_local_fail_msg">No se pudo renombrar la copia local, intenta con un nombre diferente </string>
     <string name="sync_file_nothing_to_do_msg">Los contenidos del archivo ya han sido sincronizados</string>
     <string name="create_dir_fail_msg">No fue posible crear la carpeta</string>
     <string name="filename_forbidden_characters">Caracteres inválidos: / \\ &lt; &gt; : \" | ? *</string>
@@ -325,7 +327,6 @@
     <string name="placeholder_timestamp">2012/05/18 12:23 PM</string>
     <string name="placeholder_media_time">12:23:45</string>
 
-    <string name="auto_upload_on_wifi">Cargar sólo mediante Wi-Fi</string>
     <string name="instant_upload_on_charging">Cargar archivos sólo con el dispositivo conectado a la toma de corriente</string>
     <string name="instant_upload_path">/Cargas Automáticas</string>
     <string name="auto_upload_path">/CargaAutomática</string>
@@ -572,6 +573,9 @@
 
     <string name="storage_description_default">Predeterminado</string>
 
+    <!-- What's new feature and texts to show -->
+    <string name="whats_new_title">Nuevo en %1$s</string>
+
     <!-- Welcome to Nc intro features -->
     <string name="welcome_feature_1_title">Un lugar seguro para todos tus datos</string>
     <string name="welcome_feature_1_text">Accede, comparte y proteje tus archivos en casa y la oficina</string>
@@ -582,7 +586,10 @@
     <string name="welcome_feature_3_title">Carga automática</string>
     <string name="welcome_feature_3_text">Manten tus fotos seguras</string>
 
+    <string name="whats_new_end_to_end_encryption_title">Encripción de punta-a-punta</string>
     <string name="whats_new_ipv6_title">Soporte IPv6</string>
+    <string name="whats_new_ipv6_content">IPv6 cuando el servidor lo soporte, IPv4 si no. </string>
+
     <string name="whats_new_skip">Saltar</string>
 
     <string name="fingerprint_scan_finger">Por favor escanea tu dedo</string>
@@ -739,4 +746,5 @@
     <string name="end_to_end_encryption_dialog_close">Cerrar</string>
     <string name="end_to_end_encryption_storing_keys">Almacenando llaves</string>
     <string name="copy_move_to_encrypted_folder_not_supported">Copiar/ mover a la carpeta encriptada no se encuentra soportado por el momento.</string>
-    </resources>
+    <string name="untrusted_domain">Accede a través de un dominio no de confianza. Por favor consulta la documentación para más información.</string>
+</resources>
